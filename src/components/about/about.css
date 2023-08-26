@@ -1,0 +1,27 @@
+.img-frame {
+    border: 4px white solid;
+    min-width: 160px;
+    border-radius: 10px;
+}
+
+.fit {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    color: white;
+    font-family: 'retro';
+}
+
+.fieldset-border{
+    border: 4px white solid;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.legend-background {
+    color: white;
+    background: linear-gradient(180deg, #282c34 50%, black 80%);
+}

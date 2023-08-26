@@ -1,0 +1,21 @@
+.glitch:hover{
+    animation: glitch 500ms infinite;
+}
+
+@keyframes glitch{
+    0% {
+        text-shadow: 0.10em 0 0 white;
+    }
+
+    15% {
+        text-shadow: 0.10em 0 0 black;
+    }
+
+    50% {
+        text-shadow: 0.10em 0 0 white;
+    }
+
+    100% {
+        text-shadow: 0.10em 0 0 black;
+    }
+}
