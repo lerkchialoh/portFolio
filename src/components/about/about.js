@@ -5,7 +5,7 @@ import './about.css'
 
 const About = () => {
     const skill = [{ key: "1", value: "HTML:" }, { key: "2", value: "CSS:" }, { key: "3", value: "BootStrap:" }, { key: "4", value: "React JS:" }, { key: "5", value: "Angular:" }, { key: "6", value: "Kotlin:" }, { key: "7", value: "C#:" }]
-    const skillPoint = [{ key: "1", value: "80" }, { key: "2", value: "70" }, { key: "3", value: "80" }, { key: "4", value: "90" }, { key: "5", value: "70" }, { key: "6", value: "60" }, { key: "7", value: "50" }]
+    const skillPoint = [{ key: "1", value: "80" }, { key: "2", value: "70" }, { key: "3", value: "80" }, { key: "4", value: "80" }, { key: "5", value: "70" }, { key: "6", value: "60" }, { key: "7", value: "50" }]
     return (
         <Container fluid className="p-0 bg">
             <Header />

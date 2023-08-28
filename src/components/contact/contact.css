@@ -1,8 +1,8 @@
 .image-container {
-    background-color: blue;
+    background-color: #0d6efd;
     border-radius: 30px;
-    height: 55px;
-    width: 55px;
+    height: 50px;
+    width: 50px;
     display: flex;
     flex-direction: column;
     padding: 12px;
