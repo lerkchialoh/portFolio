@@ -24,10 +24,7 @@ const About = () => {
                                     Name: Axel Loh
                                 </p>
                                 <p>
-                                    Class: Junior Programmer
-                                </p>
-                                <p>
-                                    Level: 25
+                                    Class: Programmer
                                 </p>
                                 <p>
                                     Experience: 1 Year
@@ -37,7 +34,7 @@ const About = () => {
                         <Row className="mt-5">
                             <Col className="col-12 col-lg-6">
                                 <fieldset className="fieldset-border ps-1">
-                                    <legend className="legend-background" style={{ marginLeft: '30px', marginTop: '-20px', width: '55px' }}>Skills</legend>
+                                    <legend className="legend-background" style={{ marginLeft: '30px', marginTop: '-20px', width: '55px'}}>Skills</legend>
                                     <Row>
                                         <Col className="ms-4">
                                             {skill.map(s =>

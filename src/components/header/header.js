@@ -17,7 +17,7 @@ const Header = () => {
                         <Nav.Link className="me-1 glitch" style={defaultFont} href='about'>
                             About
                         </Nav.Link>
-                        <Nav.Link className="me-1 glitch" style={defaultFont}>
+                        <Nav.Link className="me-1 glitch" style={defaultFont} href='contact'>
                             Contact
                         </Nav.Link>
                     </Nav>

@@ -1,0 +1,22 @@
+.image-container {
+    background-color: blue;
+    border-radius: 30px;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+  
+  
+  
+  
+  
+  
