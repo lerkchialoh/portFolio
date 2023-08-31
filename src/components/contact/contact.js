@@ -12,19 +12,19 @@ const Contact = () => {
 
             <Container>
                 <h1 className="mt-5" style={{ color: "white" }}>Message Me</h1>
-                <Row className=" col-lg-4 mt-4">
+                <Row lg={4} className="mt-4">
                     <Form >
                         <Form.Label style={{ color: 'white' }}>Email address</Form.Label>
                         <Form.Control type="email" placeholder="Enter email" />
                     </Form>
                 </Row>
-                <Row className="col-lg-4 mt-3">
+                <Row lg={4} className="mt-3">
                     <Form >
                         <Form.Label style={{ color: 'white' }}>Name</Form.Label>
                         <Form.Control type="text" placeholder="Enter name" />
                     </Form>
                 </Row>
-                <Row className="col-lg-4 mt-3">
+                <Row lg={4} className="mt-3">
                     <Form>
                         <Form.Label style={{ color: 'white' }}>Message</Form.Label>
                         <Form.Control as="textarea" placeholder="Enter message" />
@@ -34,15 +34,23 @@ const Contact = () => {
                 <Button className="mt-4">Contact Us</Button>
 
                 <div className="d-flex justify-content-start mt-4">
-                    <div className="image-container me-3">
-                        <Image className="image" src={facebook} alt="facebook" />
-                    </div>
-                    <div className="image-container me-3">
-                        <Image className="image" src={whatsapp} alt="whatsapp" />
-                    </div>
-                    <div className="image-container">
-                        <Image className="image" src={linkedin} alt="linkedin" />
-                    </div>
+                    <a id="fb" href="https://www.facebook.com/tiduslohchialerk/">
+                        <div className="image-container me-3">
+                            <Image className="image" src={facebook} alt="facebook" />
+                        </div>
+                    </a>
+
+                    <a id="whatsapp" href="https://api.whatsapp.com/send?phone=0127515796">
+                        <div className="image-container me-3">
+                            <Image className="image" src={whatsapp} alt="whatsapp" />
+                        </div>
+                    </a>
+
+                    <a id="linkedin" href="https://www.linkedin.com/in/loh-chia-lerk-5a2054232/">
+                        <div className="image-container">
+                            <Image className="image" src={linkedin} alt="linkedin" />
+                        </div>
+                    </a>
                 </div>
             </Container>
         </Container>

@@ -7,17 +7,17 @@ const Header = () => {
     return (
         <Container>
             <Navbar expand='lg d-flex'>
-                <Navbar.Brand href="/" style={{ color: "white", fontFamily:'retro', fontWeight: 'bold' }}>Null</Navbar.Brand>
-                {/* <Navbar.Toggle aria-controls="basic-navbar-nav" style={defaultFont} /> */}
+                <Navbar.Brand href="/" className="neon-text" style={{ fontFamily: 'retro', fontWeight: 'bold' }}>Axel Loh</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundColor: "white", color: "transparent"}} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className='ms-auto'>
-                        <Nav.Link className="me-1 glitch" style={defaultFont} href="/">
+                        <Nav.Link className="me-3 glitch" style={defaultFont} href="/">
                             Home
                         </Nav.Link>
-                        <Nav.Link className="me-1 glitch" style={defaultFont} href='about'>
+                        <Nav.Link className="me-3 glitch" style={defaultFont} href='about'>
                             About
                         </Nav.Link>
-                        <Nav.Link className="me-1 glitch" style={defaultFont} href='contact'>
+                        <Nav.Link className="glitch" style={defaultFont} href='contact'>
                             Contact
                         </Nav.Link>
                     </Nav>

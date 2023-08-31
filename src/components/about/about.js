@@ -12,7 +12,7 @@ const About = () => {
 
             <Container>
                 <Row className="mt-5">
-                    <Col className="col-12 col-lg-5">
+                    <Col lg={5}  className="col-12 ">
                         <Row>
                             <Col className="col-md-4 col-lg-4">
                                 <div className="img-frame">
@@ -32,9 +32,9 @@ const About = () => {
                             </Col>
                         </Row>
                         <Row className="mt-5">
-                            <Col className="col-12 col-lg-6">
+                            <Col lg={6} className="col-12">
                                 <fieldset className="fieldset-border ps-1">
-                                    <legend className="legend-background" style={{ marginLeft: '30px', marginTop: '-20px', width: '55px'}}>Skills</legend>
+                                    <legend className="legend-background" style={{ marginLeft: '30px', marginTop: '-20px', width: '2.4em'}}>Skills</legend>
                                     <Row>
                                         <Col className="ms-4">
                                             {skill.map(s =>
@@ -60,11 +60,11 @@ const About = () => {
                         </Row>
                     </Col>
 
-                    <Col className="col-12 col-lg-7 mt-5 mt-lg-0">
+                    <Col lg={7} className="col-12 mt-5 mt-lg-0">
                         <Row>
                             <Col>
                                 <fieldset className="fieldset-border ps-1">
-                                    <legend className="legend-background" style={{ marginLeft: '30px', marginTop: '-20px', width: '110px' }}>
+                                    <legend className="legend-background" style={{ marginLeft: '30px', marginTop: '-20px', width: '4.7em' }}>
                                         About Me
                                     </legend>
 
@@ -77,7 +77,7 @@ const About = () => {
                         <Row className="mt-5">
                             <Col>
                                 <fieldset className="fieldset-border ps-1">
-                                    <legend className="legend-background" style={{ marginLeft: '30px', marginTop: '-20px', width: '168px' }}>
+                                    <legend className="legend-background" style={{ marginLeft: '30px', marginTop: '-20px', width: '7em' }}>
                                         Past Experience
                                     </legend>
 

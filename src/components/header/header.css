@@ -1,8 +1,8 @@
-.glitch:hover{
+.glitch:hover {
     animation: glitch 500ms infinite;
 }
 
-@keyframes glitch{
+@keyframes glitch {
     0% {
         text-shadow: 0.10em 0 0 white;
     }
@@ -17,5 +17,26 @@
 
     100% {
         text-shadow: 0.10em 0 0 black;
+    }
+}
+
+.neon-text {
+    color: #fff !important;
+    font-family: 'neon' !important;
+    animation: flicker 2000ms infinite alternate-reverse;
+}
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+        0 0 2px #fff,
+        0 0 7px #FFF,
+        0 0 13px #00FFFF,
+        0 0 26px #00FFFF,
+        0 0 40px #00FFFF;
+    }
+
+    20%, 24%, 55%{
+        text-shadow: none;
     }
 }

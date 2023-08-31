@@ -12,6 +12,13 @@ body {
 }
 
 @font-face {
+  font-family: neon;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../public/font//neon.ttf') format('truetype');
+}
+
+@font-face {
   font-family: retro;
   font-style: normal;
   font-weight: bold;
