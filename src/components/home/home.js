@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css'
-import { Button, Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import Header from '../header/header';
 
 const Home = () => {
@@ -29,7 +29,9 @@ const Home = () => {
           </Col>
         </Row>
 
-        <Button className='mt-2'>Learn More</Button>
+          <div className='mt-2 button-container'>
+            <div className='inner-button'>Learn More</div>
+          </div>
       </Container>
     </Container>
   );

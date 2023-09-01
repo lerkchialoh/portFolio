@@ -74,10 +74,10 @@ const About = () => {
                                 </fieldset>
                             </Col>
                         </Row>
-                        <Row className="mt-5">
+                        <Row className="mt-5 mb-3">
                             <Col>
                                 <fieldset className="fieldset-border ps-1">
-                                    <legend className="legend-background" style={{ marginLeft: '30px', marginTop: '-20px', width: '7em' }}>
+                                    <legend className="legend-background" style={{ marginLeft: '30px', marginTop: '-20px', width: '7.3em' }}>
                                         Past Experience
                                     </legend>
 
