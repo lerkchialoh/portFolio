@@ -1,9 +1,10 @@
-import { Button, Container, Form, Row, Image } from "react-bootstrap";
+import { Container, Form, Row } from "react-bootstrap";
 import Header from "../header/header";
-import facebook from '../../assets/facebook.svg';
 import linkedin from '../../assets/linkedin.svg';
 import whatsapp from '../../assets/whatsapp-color-icon.svg';
 import './contact.css'
+import CustomButton from "../../utils/custom-button/custom-button";
+import SocialButton from "../../utils/social-button/social-button";
 
 const Contact = () => {
     return (
@@ -31,26 +32,11 @@ const Contact = () => {
                     </Form>
                 </Row>
 
-                <Button className="mt-4">Contact Us</Button>
+                <CustomButton className="mt-4" value="Contact Us" href=" " />
 
                 <div className="d-flex justify-content-start mt-4">
-                    <a id="fb" href="https://www.facebook.com/tiduslohchialerk/">
-                        <div className="image-container me-3">
-                            <Image className="image" src={facebook} alt="facebook" />
-                        </div>
-                    </a>
-
-                    <a id="whatsapp" href="https://api.whatsapp.com/send?phone=0127515796">
-                        <div className="image-container me-3">
-                            <Image className="image" src={whatsapp} alt="whatsapp" />
-                        </div>
-                    </a>
-
-                    <a id="linkedin" href="https://www.linkedin.com/in/loh-chia-lerk-5a2054232/">
-                        <div className="image-container">
-                            <Image className="image" src={linkedin} alt="linkedin" />
-                        </div>
-                    </a>
+                    <SocialButton id="whatsapp" href="https://api.whatsapp.com/send?phone=0127515796" className="me-3" src={whatsapp} alt="whatsapp" />
+                    <SocialButton id="linkedin" href="https://www.linkedin.com/in/loh-chia-lerk-5a2054232/" className="" src={linkedin} alt="linkedin" />
                 </div>
             </Container>
         </Container>

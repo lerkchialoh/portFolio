@@ -1,0 +1,47 @@
+a{
+    text-decoration: none !important;
+}
+
+.inner-button {
+    z-index: 2;
+    background-color: black;
+    padding: 0.2em;
+    width: 100%;
+    height: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.25em;
+}
+
+.button-container {
+    position: relative;
+    color: white;
+    background: black;
+    text-align: center;
+    width: 6.5em;
+    padding: 0.15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 0.25em;
+}
+
+.button-container::after {
+    content: '';
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    background-image: conic-gradient(transparent, transparent, transparent, blue);
+    animation: border-animation 2s linear infinite;
+}
+
+@keyframes border-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

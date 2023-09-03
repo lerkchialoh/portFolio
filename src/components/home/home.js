@@ -2,6 +2,7 @@ import React from 'react';
 import './home.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Header from '../header/header';
+import CustomButton from '../../utils/custom-button/custom-button';
 
 const Home = () => {
   return (
@@ -26,12 +27,11 @@ const Home = () => {
             <p>
               Nam nesciunt consequuntur quo nemo voluptas non inventore sint! Ut quia excepturi aut omnis eaque et omnis dicta est quidem enim hic dolores ipsam.
             </p>
+
+            <CustomButton className="mt-2" value="Read More" href=" " />
           </Col>
         </Row>
 
-          <div className='mt-2 button-container'>
-            <div className='inner-button'>Learn More</div>
-          </div>
       </Container>
     </Container>
   );
