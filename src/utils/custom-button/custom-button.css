@@ -25,6 +25,7 @@ a{
     justify-content: center;
     overflow: hidden;
     border-radius: 0.25em;
+    cursor: pointer;
 }
 
 .button-container::after {

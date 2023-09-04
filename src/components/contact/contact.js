@@ -5,8 +5,22 @@ import whatsapp from '../../assets/whatsapp-color-icon.svg';
 import './contact.css'
 import CustomButton from "../../utils/custom-button/custom-button";
 import SocialButton from "../../utils/social-button/social-button";
+import HeaderApi from '../../utils/header-api';
+import EndPoint from '../../endpoint'
 
 const Contact = () => {
+    const endPoint = new EndPoint();
+
+    const sendEmailBtn = () => {
+         HeaderApi(endPoint.baseUrl + endPoint.sendEmail, "Get").then(async response => {
+            if (response.status === 200) {
+                console.log(await response.json())
+            } else {
+                console.error(response.statusText);
+            }
+        });
+    }
+
     return (
         <Container fluid className="p-0 bg">
             <Header />
@@ -32,8 +46,8 @@ const Contact = () => {
                     </Form>
                 </Row>
 
-                <CustomButton className="mt-4" value="Contact Us" href=" " />
-
+                <CustomButton className="mt-4" onClickBtn={sendEmailBtn} value="Contact Us" href=" " />
+                
                 <div className="d-flex justify-content-start mt-4">
                     <SocialButton id="whatsapp" href="https://api.whatsapp.com/send?phone=0127515796" className="me-3" src={whatsapp} alt="whatsapp" />
                     <SocialButton id="linkedin" href="https://www.linkedin.com/in/loh-chia-lerk-5a2054232/" className="" src={linkedin} alt="linkedin" />

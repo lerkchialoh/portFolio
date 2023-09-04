@@ -2,11 +2,9 @@ import './custom-button.css'
 
 const CustomButton = (obj) => {
     return (
-        <a href={obj.href}>
-            <div className={`${obj.className} button-container`}>
+            <div onClick={obj.onClickBtn} className={`${obj.className} button-container`}>
                 <div className='inner-button'>{obj.value}</div>
             </div>
-        </a>
     )
 }
 
