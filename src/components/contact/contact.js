@@ -50,7 +50,7 @@ const Contact = () => {
                 
                 <div className="d-flex justify-content-start mt-4">
                     <SocialButton id="whatsapp" href="https://api.whatsapp.com/send?phone=0127515796" className="me-3" src={whatsapp} alt="whatsapp" />
-                    <SocialButton id="linkedin" href="https://www.linkedin.com/in/loh-chia-lerk-5a2054232/" className="" src={linkedin} alt="linkedin" />
+                    <SocialButton id="linkedin" href="https://www.linkedin.com/in/loh-chia-lerk/" className="" src={linkedin} alt="linkedin" />
                 </div>
             </Container>
         </Container>
