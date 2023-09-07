@@ -1,56 +1,59 @@
-import { Container, Form, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import Header from "../header/header";
 import linkedin from '../../assets/linkedin.svg';
 import whatsapp from '../../assets/whatsapp-color-icon.svg';
 import './contact.css'
-import CustomButton from "../../utils/custom-button/custom-button";
 import SocialButton from "../../utils/social-button/social-button";
-import HeaderApi from '../../utils/header-api';
-import EndPoint from '../../endpoint'
+import potrait from '../../assets/1644991091289.jpg';
+import cardBg from '../../assets/card-bg.jpg';
 
 const Contact = () => {
-    const endPoint = new EndPoint();
+    // const endPoint = new EndPoint();
 
-    const sendEmailBtn = () => {
-         HeaderApi(endPoint.baseUrl + endPoint.sendEmail, "Get").then(async response => {
-            if (response.status === 200) {
-                console.log(await response.json())
-            } else {
-                console.error(response.statusText);
-            }
-        });
-    }
+    // const sendEmailBtn = () => {
+    //      HeaderApi(endPoint.baseUrl + endPoint.sendEmail, "Get").then(async response => {
+    //         if (response.status === 200) {
+    //             console.log(await response.json())
+    //         } else {
+    //             console.error(response.statusText);
+    //         }
+    //     });
+    // }
 
     return (
         <Container fluid className="p-0 bg">
             <Header />
 
-            <Container>
-                <h1 className="mt-5" style={{ color: "white" }}>Message Me</h1>
-                <Row lg={4} className="mt-4">
-                    <Form >
-                        <Form.Label style={{ color: 'white' }}>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="Enter email" />
-                    </Form>
-                </Row>
-                <Row lg={4} className="mt-3">
-                    <Form >
-                        <Form.Label style={{ color: 'white' }}>Name</Form.Label>
-                        <Form.Control type="text" placeholder="Enter name" />
-                    </Form>
-                </Row>
-                <Row lg={4} className="mt-3">
-                    <Form>
-                        <Form.Label style={{ color: 'white' }}>Message</Form.Label>
-                        <Form.Control as="textarea" placeholder="Enter message" />
-                    </Form>
-                </Row>
+            <Container className="padding-parent-container">
+                <div className="contact-card mx-auto position-relative mt-5" style={{backgroundImage: `url(${cardBg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
+                    <Row className="padding-container d-flex flex-row">
+                        <Col className="align-self-center">
+                            <div className="contact-image">
+                                <Image className="portrait" src={potrait} alt="portrait" />
+                            </div>
+                        </Col>
 
-                <CustomButton className="mt-4" onClickBtn={sendEmailBtn} value="Contact Us" href=" " />
-                
-                <div className="d-flex justify-content-start mt-4">
-                    <SocialButton id="whatsapp" href="https://api.whatsapp.com/send?phone=0127515796" className="me-3" src={whatsapp} alt="whatsapp" />
-                    <SocialButton id="linkedin" href="https://www.linkedin.com/in/loh-chia-lerk/" className="" src={linkedin} alt="linkedin" />
+                        <Col className="align-self-center">
+                            <h6 className="font" style={{ color: "black", fontFamily: "sans-serif", fontWeight: "bold" }}>Loh Chia Lerk</h6>
+                            <h6 className="font"  style={{ color: "black", fontFamily: "sans-serif" }}>Software Developer</h6>
+                            <div className="d-flex justify-content-start mt-4">
+                                <SocialButton id="whatsapp" href="https://api.whatsapp.com/send?phone=0127515796" borderColor="#25D366" backgroundColor="white" className="me-3" src={whatsapp} alt="whatsapp" />
+                                <SocialButton id="linkedin" href="https://www.linkedin.com/in/loh-chia-lerk/" borderColor="#0072B1" backgroundColor="#0072B1" className="" src={linkedin} alt="linkedin" />
+                            </div>
+                        </Col>
+                    </Row>
+
+                    <div className="position-absolute bottom-0" style={{ width: "100%" }}>
+                        <div style={{ height: "1px", backgroundColor: "black" }} />
+                        <Row>
+                            <Col className="border-end border-dark">
+                                <a href="tel: 012-7515796"><h4 className="link-font py-1" style={{ marginLeft: "0.5em" }}>(+60) 127515796</h4></a>
+                            </Col>
+                            <Col>
+                                <a href="mailto: chiaerk@gmail.com"><h4 className="link-font py-1">chiaerk@gmail.com</h4></a>
+                            </Col>
+                        </Row>
+                    </div>
                 </div>
             </Container>
         </Container>

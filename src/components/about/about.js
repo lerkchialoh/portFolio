@@ -21,10 +21,10 @@ const About = () => {
                             </Col>
                             <Col className="col-lg-8">
                                 <p>
-                                    Name: Axel Loh
+                                    Name: Loh Chia Lerk
                                 </p>
                                 <p>
-                                    Class: Programmer
+                                    Class: Software Developer
                                 </p>
                                 <p>
                                     Experience: 1 Year

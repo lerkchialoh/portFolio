@@ -1,0 +1,94 @@
+.contact-card {
+    border-radius: 5px;
+    height: 21em;
+}
+
+.contact-image {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    border: 3px black solid;
+    overflow: hidden;
+    display: flex;
+}
+
+.portrait {
+    width: 100%;
+    height: 100%;
+}
+
+.padding-container {
+    padding: 2em;
+}
+
+.font {
+    font-size: xx-large;
+}
+
+.link-font {
+    font-size: x-large;
+}
+
+.padding-parent-container {
+    padding-left: 15em !important;
+    padding-right: 15em !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .padding-parent-container {
+        padding-left: 10em !important;
+        padding-right: 10em !important;
+    }
+
+    .font {
+        font-size: x-large;
+    }
+
+    .link-font {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .padding-parent-container {
+        padding-left: 5em !important;
+        padding-right: 5em !important;
+    }
+
+    .font {
+        font-size: large;
+    }
+
+    .link-font {
+        font-size: large;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .padding-parent-container {
+        padding-left: 1em !important;
+        padding-right: 1em !important;
+    }
+
+    .contact-image {
+        width: 130px;
+        height: 130px;
+    }
+
+    .contact-card {
+        height: 15em;
+    }
+
+    .padding-container {
+        padding: 1.5em;
+    }
+
+    .font {
+        font-size: medium;
+    }
+
+    .link-font {
+        font-size: medium;
+    }
+}
