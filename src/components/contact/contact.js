@@ -26,14 +26,14 @@ const Contact = () => {
 
             <Container className="padding-parent-container">
                 <div className="contact-card mx-auto position-relative mt-5" style={{backgroundImage: `url(${cardBg})`, backgroundRepeat: "no-repeat", backgroundSize: "cover"}}>
-                    <Row className="padding-container d-flex flex-row">
-                        <Col className="align-self-center">
+                    <Row className="padding-container d-flex flex-row align-items-center">
+                        <Col>
                             <div className="contact-image">
                                 <Image className="portrait" src={potrait} alt="portrait" />
                             </div>
                         </Col>
 
-                        <Col className="align-self-center">
+                        <Col>
                             <h6 className="font" style={{ color: "black", fontFamily: "sans-serif", fontWeight: "bold" }}>Loh Chia Lerk</h6>
                             <h6 className="font"  style={{ color: "black", fontFamily: "sans-serif" }}>Software Developer</h6>
                             <div className="d-flex justify-content-start mt-4">

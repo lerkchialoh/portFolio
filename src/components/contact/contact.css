@@ -4,8 +4,8 @@
 }
 
 .contact-image {
-    width: 225px;
-    height: 225px;
+    width: 200px;
+    height: 210px;
     border-radius: 50%;
     border: 3px black solid;
     overflow: hidden;
@@ -30,8 +30,8 @@
 }
 
 .padding-parent-container {
-    padding-left: 15em !important;
-    padding-right: 15em !important;
+    padding-left: 20em !important;
+    padding-right: 20em !important;
 }
 
 @media screen and (max-width: 1200px) {
@@ -41,11 +41,11 @@
     }
 
     .font {
-        font-size: x-large;
+        font-size: large;
     }
 
     .link-font {
-        font-size: x-large;
+        font-size: large;
     }
 }
 
@@ -73,7 +73,7 @@
 
     .contact-image {
         width: 130px;
-        height: 130px;
+        height: 140px;
     }
 
     .contact-card {

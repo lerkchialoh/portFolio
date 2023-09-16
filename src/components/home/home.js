@@ -3,10 +3,10 @@ import './home.css'
 import { Container, Row, Col } from 'react-bootstrap'
 import Header from '../header/header';
 import CustomButton from '../../utils/custom-button/custom-button';
-
+import earth from '../../assets/earth.jpg';
 const Home = () => {
   const onclick = () => {
-    return window.location.href='/about';
+    return window.location.href = '/about';
   }
 
   return (
@@ -14,7 +14,7 @@ const Home = () => {
       <Header />
 
       <Container className='mt-5'>
-        <Row>
+        <Row style={{ overflow: "hidden" }}>
           <Col className='top-down-animation' lg={5}>
             <h1 className='mt-lg-5' style={{ color: "white" }}>
               This is a title
@@ -37,6 +37,11 @@ const Home = () => {
         </Row>
 
       </Container>
+      
+      <div className='star'>
+      </div>
+
+      <div className='earth d-none d-lg-block' style={{ backgroundImage: `url(${earth})` }} />
     </Container>
   );
 }
