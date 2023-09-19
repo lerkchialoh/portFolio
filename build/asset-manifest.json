@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.178d10e3.css",
+    "main.js": "/static/js/main.c516b791.js",
+    "static/js/787.1b287a02.chunk.js": "/static/js/787.1b287a02.chunk.js",
+    "static/media/earth.jpg": "/static/media/earth.e04e2bf2401d1869ac23.jpg",
+    "static/media/PixeloidSans-mLxMm.ttf": "/static/media/PixeloidSans-mLxMm.cda2fe0f332ea0480102.ttf",
+    "static/media/PixeloidSansBold-PKnYd.ttf": "/static/media/PixeloidSansBold-PKnYd.efdc06eb86b98129e476.ttf",
+    "static/media/1644991091289.jpg": "/static/media/1644991091289.ef64bf0004b69f925e0e.jpg",
+    "static/media/neon.ttf": "/static/media/neon.3cdac08338e1a7f8da41.ttf",
+    "static/media/card-bg.jpg": "/static/media/card-bg.1913ef3ee408f9c447ca.jpg",
+    "static/media/whatsapp-color-icon.svg": "/static/media/whatsapp-color-icon.e9296bc7af115174ec2f5ccebc8e5d53.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.475cfcb894dcdb22bfb5b5a828758066.svg",
+    "index.html": "/index.html",
+    "main.178d10e3.css.map": "/static/css/main.178d10e3.css.map",
+    "main.c516b791.js.map": "/static/js/main.c516b791.js.map",
+    "787.1b287a02.chunk.js.map": "/static/js/787.1b287a02.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.178d10e3.css",
+    "static/js/main.c516b791.js"
+  ]
+}
