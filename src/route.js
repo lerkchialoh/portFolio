@@ -8,7 +8,7 @@ export default function DefaultRoute() {
     return (
         <BrowserRouter>
             <Routes>
-            <Route path="portfolio" element={<Home />} />
+            <Route path="portFolio" element={<Home />} />
                 <Route path="about" element={<About />} />
                 <Route path="contact" element={<Contact />} />
                 <Route path="*" element={<NoPage />} />
