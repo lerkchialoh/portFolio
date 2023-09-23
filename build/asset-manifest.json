@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.178d10e3.css",
-    "main.js": "/static/js/main.071e4076.js",
-    "static/js/787.1b287a02.chunk.js": "/static/js/787.1b287a02.chunk.js",
-    "static/media/earth.jpg": "/static/media/earth.e04e2bf2401d1869ac23.jpg",
-    "static/media/PixeloidSans-mLxMm.ttf": "/static/media/PixeloidSans-mLxMm.cda2fe0f332ea0480102.ttf",
-    "static/media/PixeloidSansBold-PKnYd.ttf": "/static/media/PixeloidSansBold-PKnYd.efdc06eb86b98129e476.ttf",
-    "static/media/1644991091289.jpg": "/static/media/1644991091289.ef64bf0004b69f925e0e.jpg",
-    "static/media/neon.ttf": "/static/media/neon.3cdac08338e1a7f8da41.ttf",
-    "static/media/card-bg.jpg": "/static/media/card-bg.1913ef3ee408f9c447ca.jpg",
-    "static/media/whatsapp-color-icon.svg": "/static/media/whatsapp-color-icon.e9296bc7af115174ec2f5ccebc8e5d53.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.475cfcb894dcdb22bfb5b5a828758066.svg",
-    "index.html": "/index.html",
-    "main.178d10e3.css.map": "/static/css/main.178d10e3.css.map",
-    "main.071e4076.js.map": "/static/js/main.071e4076.js.map",
-    "787.1b287a02.chunk.js.map": "/static/js/787.1b287a02.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.56d75376.css",
+    "main.js": "/portfolio/static/js/main.cf0a448f.js",
+    "static/js/787.1b287a02.chunk.js": "/portfolio/static/js/787.1b287a02.chunk.js",
+    "static/media/earth.jpg": "/portfolio/static/media/earth.e04e2bf2401d1869ac23.jpg",
+    "static/media/PixeloidSans-mLxMm.ttf": "/portfolio/static/media/PixeloidSans-mLxMm.cda2fe0f332ea0480102.ttf",
+    "static/media/PixeloidSansBold-PKnYd.ttf": "/portfolio/static/media/PixeloidSansBold-PKnYd.efdc06eb86b98129e476.ttf",
+    "static/media/1644991091289.jpg": "/portfolio/static/media/1644991091289.ef64bf0004b69f925e0e.jpg",
+    "static/media/neon.ttf": "/portfolio/static/media/neon.3cdac08338e1a7f8da41.ttf",
+    "static/media/card-bg.jpg": "/portfolio/static/media/card-bg.1913ef3ee408f9c447ca.jpg",
+    "static/media/whatsapp-color-icon.svg": "/portfolio/static/media/whatsapp-color-icon.e9296bc7af115174ec2f5ccebc8e5d53.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.475cfcb894dcdb22bfb5b5a828758066.svg",
+    "main.56d75376.css.map": "/portfolio/static/css/main.56d75376.css.map",
+    "main.cf0a448f.js.map": "/portfolio/static/js/main.cf0a448f.js.map",
+    "787.1b287a02.chunk.js.map": "/portfolio/static/js/787.1b287a02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.178d10e3.css",
-    "static/js/main.071e4076.js"
+    "static/css/main.56d75376.css",
+    "static/js/main.cf0a448f.js"
   ]
 }
